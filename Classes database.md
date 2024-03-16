@@ -242,7 +242,7 @@ filters:
   enabled: true
   conditions:
       - condition: AND
-        disabled: true
+        disabled: false
         label: "Monday"
         color: "hsl(326, 95%, 90%)"
         filters:
