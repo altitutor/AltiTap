@@ -1,10 +1,10 @@
 ---
-Day: 6.Saturday PM
-Subject: SACE 12METH
-Time: 2:45
+Day: 4.Thursday
+Subject: PreSACE Maths
+Time: 5:45
 ---
+Tutor:: [[1.3 Tutors/Justin Le.md|Justin Le]]
 
-Tutor:: [[1.3 Tutors/Kevin Zhou.md|Kevin Zhou]], [[1.3 Tutors/Matthew Qin.md|Matthew Qin]]
 
 > [!Example] Students
 > ```dataview

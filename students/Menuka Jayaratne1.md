@@ -1,16 +1,6 @@
 ---
-Subjects:
-  - PreSACE Maths
-Current: Current
-SACE_or_IB: SACE
-Student_year_level:
-  - Year 9
-Parent_name: Sherin Mathew
-Parent_mobile: "+61415852473"
-Parent_email: sherinnkmathew@gmail.com
-Student_mobile: "+61415852473"
+Current: Potential
 ---
-Classes:: [[9MATH B4|9MATH B4]]
 
 > [!Abstract]+ Session history
 > ## Absences
@@ -49,29 +39,22 @@ Classes:: [[9MATH B4|9MATH B4]]
 > 
 
 # Trial session
-> [!Info]- Trial session guide
+> [!Info] Trial session guide
 ![[1.2.1 Trial sessions#General format]]
-
-Daughter's name is Jiyanna?
-
 ### 1. How did you hear about us?
-- Family friends word of mouth
+- 
 ### 2. **Student details** - year level, school, subjects
-- Adelaide high, y9
-	- dance, food tech, spanish, core subjects
+- 
 ### 3. **Motivation** - why do you want tutoring?
-- good grades :D
+- 
 ### 4.  What do you want to do after you leave school?
-- not sure
+- 
 ### 5. **Subjects** - which subjects would you get tutoring for if you came to Altitutor?
-- Maths - one big class no extention available, english, and science
+- 
 ### 6. **Grades** - what grades are you currently on for each of these subjects?
-- maths - A
-- english - A
-- sciences - A
-- , dance B food tech A
+- 
 ### 7.  **Topic** - which topic are you up to for each of these subjects? Which topic(s) have you completed already?
-- maths- finished indices, eng book analysis, science - bio
+- 
 
 # Messages
 ```button

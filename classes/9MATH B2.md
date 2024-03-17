@@ -3,7 +3,7 @@ Day: 6.Saturday PM
 Subject: PreSACE Maths
 Time: 2:45
 ---
-Tutor:: [[Rongjun He|Rongjun He]]
+Tutor:: [[1.3 Tutors/Shardul Mulye.md|Shardul Mulye]]
 
 > [!Example] Students
 > ```dataview

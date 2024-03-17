@@ -25,7 +25,7 @@ Saturday_PM: Currently available
 Sunday_PM: Currently available
 Sunday_AM: Currently available
 ---
-Classes:: [[1.2 Classes/12METH D1.md|12METH D1]], [[1.2 Classes/UCAT C.md|UCAT C]], [[1.2 Classes/2.Tuesday/12BIO A4.md|12BIO A4]]
+Classes:: [[1.2 Classes/12METH D1.md|12METH D1]], [[1.2 Classes/UCAT C.md|UCAT C]], [[12BIO A4|12BIO A4]]
 
 > [!Abstract]+ Session history
 > ## Absences

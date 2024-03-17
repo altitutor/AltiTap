@@ -4,7 +4,7 @@ Subject: PreSACE English
 Time: 2:45
 ---
 
-Tutor:: [[Samantha Valerio|Samantha Valerio]]
+Tutor:: [[1.3 Tutors/Rongjun He.md|Rongjun He]]
 
 > [!Example] Students
 > ```dataview

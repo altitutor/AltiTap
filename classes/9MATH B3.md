@@ -4,7 +4,7 @@ Subject: PreSACE Maths
 Time: 5:45
 ---
 
-Tutor:: [[Tristan Theseira|Tristan Theseira]]
+Tutor:: [[1.3 Tutors/Lara Nguyen.md|Lara Nguyen]]
 
 > [!Example] Students
 > ```dataview

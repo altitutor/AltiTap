@@ -1,6 +1,9 @@
 ---
-Day: ""
+Day: 2.Tuesday
+Subject: SACE 12CHEM
+Time: 4:15
 ---
+Tutor:: [[1.3 Tutors/Matthew Qin.md|Matthew Qin]]
 
 
 > [!Example] Students

@@ -8,13 +8,30 @@ classes_folder_path = 'classes'
 
 # Function to extract class file paths from a student Markdown file
 def extract_class_paths(file_content):
-    class_paths = re.findall(r'\[\[1\.2 Classes/(.+?)\|', file_content)
-    return class_paths
+    # Extracting both types of references
+    class_references = re.findall(r'\[\[(1\.2 Classes/)?(.*?)\|', file_content)
+
+    standardized_paths = []
+    for _, path in class_references:
+        # Ensure the path ends with .md
+        if not path.endswith('.md'):
+            path += '.md'
+        standardized_paths.append(path)
+
+    return standardized_paths
+
+
+def update_students_dropdown(*args):
+    selected_day = day_var.get()
+    students = load_students_by_day(selected_day)
+    students_var.set('Select a student')  # Reset the student dropdown
+    student_dropdown['menu'].delete(0, 'end')  # Clear existing options
+    for student in students:
+        student_dropdown['menu'].add_command(label=student, command=lambda value=student: students_var.set(value))
 
 # Function to read class details from a class Markdown file
 def read_class_details(file_path):
     try:
-        print(f"Trying to open: {file_path}")  # Debugging print statement
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
             details = re.search(r'---\s+Day: (.+?)\s+Subject: (.+?)\s+Time: (.+?)\s+---', content, re.DOTALL)
@@ -24,8 +41,6 @@ def read_class_details(file_path):
         print(f"File not found: {file_path}")
     return None
 
-
-# Adjusted function to load all students and their classes based on a selected day
 def load_students_by_day(selected_day):
     students_by_day = []
     for student_file in os.listdir(students_folder_path):
@@ -34,13 +49,14 @@ def load_students_by_day(selected_day):
                 content = file.read()
                 class_paths = extract_class_paths(content)
                 for class_path in class_paths:
-                    # Directly use the class_path assuming it includes the .md extension
-                    class_file_path = os.path.join(classes_folder_path, class_path)  
+                    # Assuming all class files are directly under 'classes' folder
+                    class_file_path = os.path.join(classes_folder_path, class_path)
                     class_details = read_class_details(class_file_path)
                     if class_details and class_details[0] == selected_day:
                         students_by_day.append(student_file[:-3])  # Remove .md extension
                         break
     return students_by_day
+
 
 # Initialize Tkinter window
 root = Tk()
